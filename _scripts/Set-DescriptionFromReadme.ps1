@@ -17,7 +17,7 @@
 .EXAMPLE
   function global:au_AfterUpdate  { Set-DescriptionFromReadme -SkipFirst 2 }
 #>
-function Set-DescriptionFromReadme([int]$SkipFirst=0, [int]$SkipLast=0) {
+function Set-DescriptionFromReadme([int]$SkipFirst = 0, [int]$SkipLast = 0) {
     if (!(Test-Path README.md)) { throw 'Set-DescriptionFromReadme: README.md not found' }
 
     Write-Host 'Setting README.md to Nuspec description tag'

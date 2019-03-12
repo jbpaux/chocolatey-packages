@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>azure-cli</id>
+    <version>2.0.59</version>
+    <title>Azure CLI</title>
+    <authors>Microsoft</authors>
+    <projectUrl>https://github.com/azure/azure-cli/</projectUrl>
+    <packageSourceUrl>https://github.com/jbpaux/au-packages/tree/master/azure-cli</packageSourceUrl>
+    <licenseUrl>https://github.com/Azure/azure-cli/blob/master/LICENSE.txt</licenseUrl>
+    <iconUrl>https://cdn.rawgit.com/jbpaux/au-packages/azure-cli/azure-cli-logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/azure/azure-cli/</projectSourceUrl>
+    <docsUrl>https://docs.microsoft.com/en-us/cli/azure/install-azure-cli</docsUrl>
+    <tags>azurecli cli admin azure</tags>
+    <summary>The Azure CLI is Azure's command line experience for managing Azure resources.</summary>
+    <description>Azure CLI is optimized for managing and administering Azure resources from the command line, and for building automation scripts that work against the Azure Resource Manager.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
