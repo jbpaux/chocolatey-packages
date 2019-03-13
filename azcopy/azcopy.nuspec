@@ -7,8 +7,8 @@
     <title>Azcopy</title>
     <authors>Microsoft</authors>
     <projectUrl>https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy</projectUrl>
-    <packageSourceUrl>https://github.com/jbpaux/au-packages/tree/master/azcopy</packageSourceUrl>
-    <iconUrl>https://raw.githubusercontent.com/jbpaux/au-packages/master/azure-cli/azcopy-logo.png</iconUrl>
+    <packageSourceUrl>https://github.com/jbpaux/chocolatey-packages/tree/master/azcopy</packageSourceUrl>
+    <iconUrl>https://raw.githubusercontent.com/jbpaux/chocolatey-packages/master/azure-cli/azcopy-logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <docsUrl>https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy</docsUrl>
     <tags>azcopy azure</tags>
