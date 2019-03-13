@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>azcopy</id>
+    <version>8.1.0</version>
+    <title>Azcopy</title>
+    <authors>Microsoft</authors>
+    <projectUrl>https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy</projectUrl>
+    <packageSourceUrl>https://github.com/jbpaux/au-packages/tree/master/azcopy</packageSourceUrl>
+    <iconUrl>https://raw.githubusercontent.com/jbpaux/au-packages/master/azure-cli/azcopy-logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy</docsUrl>
+    <tags>azcopy azure</tags>
+    <summary>The Azure CLI is Azure's command line experience for managing Azure resources.</summary>
+    <description>AzCopy is a command-line utility designed for high-performance uploading, downloading, and copying data to and from Microsoft Azure Blob and File.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
