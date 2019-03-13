@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>azcopy</id>
-    <version>8.1.0</version>
+    <version>7.3.0</version>
     <title>Azcopy</title>
     <authors>Microsoft</authors>
     <projectUrl>https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy</projectUrl>
