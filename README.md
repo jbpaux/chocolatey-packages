@@ -4,7 +4,7 @@
 [![](https://ci.appveyor.com/api/projects/status/github/jbpaux/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/jbpaux/chocolatey-packages)
 [Update status](https://gist.github.com/jbpaux/61135c8432362efde3a4bb0eecf4b604)
 [![](http://transparent-favicon.info/favicon.ico)](#)
-[chocolatey/YOUR_CHOCOLATEY_USERNAME_HERE](https://chocolatey.org/profiles/jbpaux)
+[chocolatey/jbpaux](https://chocolatey.org/profiles/jbpaux)
 
 
 
