@@ -4,14 +4,15 @@
   <metadata>
     <id>azcopy</id>
     <version>8.1.0</version>
-    <title>Azcopy</title>
+    <title>azcopy</title>
     <authors>Microsoft</authors>
+    <owners>erichexter,jbpaux</owners>
     <projectUrl>https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy</projectUrl>
     <packageSourceUrl>https://github.com/jbpaux/chocolatey-packages/tree/master/azcopy</packageSourceUrl>
     <iconUrl>https://raw.githubusercontent.com/jbpaux/chocolatey-packages/master/azure-cli/azcopy-logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <docsUrl>https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy</docsUrl>
-    <tags>azcopy azure</tags>
+    <tags>azcopy azure admin</tags>
     <summary>The Azure CLI is Azure's command line experience for managing Azure resources.</summary>
     <description>AzCopy is a command-line utility designed for high-performance uploading, downloading, and copying data to and from Microsoft Azure Blob and File.</description>
   </metadata>
