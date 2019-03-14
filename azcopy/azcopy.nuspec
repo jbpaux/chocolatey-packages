@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>azcopy</id>
-    <version>8.1.0</version>
+    <version>8.1.0.20190314</version>
     <title>azcopy</title>
     <authors>Microsoft</authors>
     <owners>erichexter,jbpaux</owners>
