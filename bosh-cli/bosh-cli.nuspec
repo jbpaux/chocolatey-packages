@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>bosh-cli</id>
-    <title>Bosh-CLI</title>
+    <title>bosh-cli</title>
     <version>5.4.0</version>
     <authors>CloudFoundry</authors>
     <owners>jbpaux</owners>
@@ -20,9 +20,6 @@
     <licenseUrl>https://github.com/cloudfoundry/bosh-cli/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/jbpaux/chocolatey-packages/master/bosh-cli/icon.png</iconUrl>
-    <dependencies>
-      <dependency id="chocolatey-core.extension" version="1.3.3" />
-    </dependencies>
     <releaseNotes>https://github.com/cloudfoundry/bosh-cli/releases/tag/5.4.0</releaseNotes>
     <docsUrl>https://bosh.io/docs/cli-v2.html</docsUrl>
     <bugTrackerUrl>https://github.com/cloudfoundry/bosh-cli/issues</bugTrackerUrl>
@@ -31,6 +28,5 @@
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
-    <file src="legal\**" target="legal" />
   </files>
 </package>

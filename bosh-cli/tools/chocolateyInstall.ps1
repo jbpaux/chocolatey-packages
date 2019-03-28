@@ -12,4 +12,3 @@ $packageArgs = @{
     ChecksumType = 'sha256'
 }
 Get-ChocolateyWebFile @packageArgs
-Register-Application "$toolsDir\$exeName"

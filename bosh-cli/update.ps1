@@ -15,11 +15,6 @@ function global:au_SearchReplace {
             "(\<releaseNotes\>).*?(\</releaseNotes\>)" = "`${1}$($Latest.ReleaseNotes)`$2"
         }
 
-        ".\legal\VERIFICATION.txt" = @{
-          "(?i)(\s+x64:).*"            = "`${1} $($Latest.URL64)"
-          "(?i)(checksum64:).*"        = "`${1} $($Latest.Checksum64)"
-          "(?i)(Get-RemoteChecksum).*" = "`${1} $($Latest.URL64)"
-        }
     }
 }
 
