@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
  
 $packageName = 'azcopy10'
-$version = '10.1.2'
+$version = '10.1.2.20190520'
 $toolsDir = Split-Path -Parent $MyInvocation.MyCommand.Definition
 
 $packageArgs = @{
