@@ -1,7 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
  
 $packageName = 'azcopy10'
-$version = '10.1.2.20190520'
 $toolsDir = Split-Path -Parent $MyInvocation.MyCommand.Definition
 
 $packageArgs = @{
@@ -14,5 +13,5 @@ $packageArgs = @{
 
 #Manage azcopy installation
 Install-ChocolateyZipPackage @packageArgs
-Rename-Item -Path (Join-Path -Path $toolsDir -ChildPath "azcopy_windows_amd64_$version" ) -NewName 'azcopy'
+Rename-Item -Path (Join-Path -Path $toolsDir -ChildPath (($packageArgs.url64 -split '/' | Select-Object -Last 1) -replace ".zip","") ) -NewName 'azcopy'
 
