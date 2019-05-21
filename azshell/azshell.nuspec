@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>azshell</id>
+    <version>0.2.2</version>
+    <owners>jbpaux</owners>
+    <title>azshell</title>
+    <authors>Anders Liu</authors>
+    <projectUrl>https://github.com/yangl900/azshell</projectUrl>
+    <packageSourceUrl>https://github.com/jbpaux/chocolatey-packages/tree/master/azshell</packageSourceUrl>
+    <!--<iconUrl>https://raw.github.com/jbpaux/chocolatey-packages/tree/master/azshell/azshell.png</iconUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>azshell azure cli</tags>
+    <summary>This is an experimental project that allows you connect to Azure Cloud Shell from a local terminal without a browser.</summary>
+    <description>With azshell you will be able to access latest Azure CLI, PowerShell and all other Cloud Shell tooling (terraform, ansible, .net core) from your local command line.
+
+
+**Please Note**: This is an automatically updated package. If you find it is 
+out of date by more than a day or two, please contact the maintainer(s) and
+let them know the package is no longer updating correctly.
+</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
