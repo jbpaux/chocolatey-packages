@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>cf-cli</id>
+    <title>cf-cli</title>
+    <version>6.44.1</version>
+    <authors>CloudFoundry</authors>
+    <owners>jbpaux</owners>
+    <summary>Cloud Foundry CLI is the official command line client for Cloud Foundry.</summary>
+    <description>Cloud Foundry is an open source, multi-cloud application platform as a service (PaaS) governed by the Cloud Foundry Foundation.
+    You can deploy to run your apps on your own computing infrastructure, or deploy on an IaaS like AWS, vSphere, or OpenStack. You can also use a PaaS deployed by a commercial CF cloud provider
+
+    The CF CLI is the command line tool used for interacting with all Cloud Foundry configuration.</description>
+    <projectUrl>https://github.com/cloudfoundry/cli/</projectUrl>
+    <tags>cf cf-cli cli cloud-foundry</tags>
+    <licenseUrl>https://github.com/cloudfoundry/cli/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.githubusercontent.com/jbpaux/chocolatey-packages/master/cf-cli/icon.png</iconUrl>
+    <releaseNotes>https://github.com/cloudfoundry/cli/releases/tag/v6.44.1</releaseNotes>
+    <docsUrl>https://docs.cloudfoundry.org/cf-cli</docsUrl>
+    <bugTrackerUrl>https://github.com/cloudfoundry/cli/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/cloudfoundry/cli/</projectSourceUrl>
+    <packageSourceUrl>https://github.com/jbpaux/chocolatey-packages/tree/master/cf-cli</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
