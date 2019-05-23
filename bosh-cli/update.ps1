@@ -18,7 +18,9 @@ function global:au_SearchReplace {
     }
 }
 
-function global:au_BeforeUpdate {  }
+function global:au_BeforeUpdate { 
+    Remove-Item "$PSScriptRoot\tools\*.exe"
+ }
 function global:au_AfterUpdate  {  }
 
 function global:au_GetLatest {
