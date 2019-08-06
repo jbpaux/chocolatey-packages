@@ -4,7 +4,7 @@
   <metadata>
     <id>bosh-cli</id>
     <title>bosh-cli</title>
-    <version>5.5.1</version>
+    <version>6.0.0</version>
     <authors>CloudFoundry</authors>
     <owners>jbpaux</owners>
     <summary>The Bosh CLI is the command line tool used for interacting with all things BOSH, from deployment operations to software release management.</summary>
@@ -20,7 +20,7 @@
     <licenseUrl>https://github.com/cloudfoundry/bosh-cli/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/jbpaux/chocolatey-packages/master/bosh-cli/icon.png</iconUrl>
-    <releaseNotes>https://github.com/cloudfoundry/bosh-cli/releases/tag/5.5.1</releaseNotes>
+    <releaseNotes>https://github.com/cloudfoundry/bosh-cli/releases/tag/6.0.0</releaseNotes>
     <docsUrl>https://bosh.io/docs/cli-v2.html</docsUrl>
     <bugTrackerUrl>https://github.com/cloudfoundry/bosh-cli/issues</bugTrackerUrl>
     <projectSourceUrl>https://github.com/cloudfoundry/bosh-cli/</projectSourceUrl>
