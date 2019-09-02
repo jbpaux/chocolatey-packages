@@ -35,7 +35,7 @@ function global:au_GetLatest {
     return @{
         URL64        = $url
         Version      = $version.Replace('v','')
-        ReleaseNotes = "$releases/tag/${version}"
+        ReleaseNotes = "$releases/tag/v${version}"
     }
 }
 
