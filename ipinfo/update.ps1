@@ -16,17 +16,20 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-    $release = Invoke-RestMethod "https://api.github.com/repos/$repo/releases/latest"
+    $releases = Invoke-RestMethod "https://api.github.com/repos/$repo/releases"
     if ($null -ne $release) {
-        $url64 = ($release.assets |Where-Object name -like "*_windows_amd64.zip").browser_download_url
-        $url32 = ($release.assets |Where-Object name -like "*_windows_386.zip").browser_download_url
+        $release = $releases | Where-Object name -like "ipinfo*" | Sort-Object published_at -Descending | Select-Object -First 1
+        if ($null -ne $release) {
+            $url64 = ($release.assets | Where-Object name -like "ipinfo*_windows_amd64.zip").browser_download_url
+            $url32 = ($release.assets | Where-Object name -like "ipinfo*_windows_386.zip").browser_download_url
         
-        $version = $release.name.split('-')[1]
+            $version = $release.name.split('-')[1]
         
-        @{
-            URL64   = $url64
-            URL32   = $url32
-            Version = $version
+            @{
+                URL64   = $url64
+                URL32   = $url32
+                Version = $version
+            }
         }
     }
 }
