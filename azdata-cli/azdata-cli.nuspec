@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>azdata-cli</id>
+    <version>20.3.8</version>
+    <title>Azure Data CLI</title>
+    <authors>Microsoft</authors>
+    <projectUrl>https://docs.microsoft.com/en-us/sql/azdata/install/deploy-install-azdata</projectUrl>
+    <packageSourceUrl>https://github.com/jbpaux/chocolatey-packages/tree/master/azdata-cli</packageSourceUrl>
+    <licenseUrl>https://github.com/microsoft/homebrew-azdata-cli-release/blob/master/LICENSE.md</licenseUrl>
+    <!--<iconUrl>https://raw.githubusercontent.com/jbpaux/chocolatey-packages/master/azure-cli/azure-cli-logo.png</iconUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<projectSourceUrl>https://github.com/azure/azure-cli/</projectSourceUrl> -->
+    <docsUrl>https://docs.microsoft.com/en-us/sql/azdata/reference/reference-azdata</docsUrl>
+    <tags>azdata azdata-cli data cli admin azure</tags>
+    <summary>The Azure Data CLI is a command-line utility written in Python to bootstrap and manage the data services via REST APIs.</summary>
+    <description>Azure Data CLI is used to manage SQL Server Big Data Clusters using the command-line.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
