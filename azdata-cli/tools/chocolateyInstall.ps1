@@ -4,11 +4,11 @@ $packageName = 'azdata-cli'
  
 $packageArgs = @{
     packageName    = $packageName
-    url            = 'https://download.microsoft.com/download/f/f/f/fffaa914-d4f7-4885-89c7-696bbfe7670a/azdata-cli-20.3.9.msi'
+    url            = 'https://download.microsoft.com/download/f/f/f/fffaa914-d4f7-4885-89c7-696bbfe7670a/azdata-cli-20.3.10.msi'
     fileType       = "msi"
  
     softwareName   = 'Microsoft Data CLI'
-    checksum       = '9d3773dab9d4ee184910cea3262e1768e4a6ae1c42998c7f0574eebead7ef41f'
+    checksum       = 'f5ff2fd67c1813725f448b4ac2ff259a83b81d5802efebc1fba3d804940947fd'
     checksumType   = 'sha256'
  
     silentArgs     = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
