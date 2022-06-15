@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>azdata-cli</id>
-    <version>20.3.11</version>
+    <version>20.3.12</version>
     <title>Azure Data CLI</title>
     <authors>Microsoft</authors>
     <projectUrl>https://docs.microsoft.com/en-us/sql/azdata/install/deploy-install-azdata</projectUrl>
