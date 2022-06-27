@@ -20,7 +20,7 @@ environment:
   # Github token to commit pushed packages to repository
   github_user_repo: jbpaux/chocolatey-packages
   github_api_key:
-    secure: sKZnaP/y8Y+MU6wdo1MQfPPSPGxUObIRgDBzlugMhaMLw16tqHcaiTzohOr7b4Pk #https://ci.appveyor.com/tools/encrypt
+    secure: RpINNNBrKSr7mmqfYOApkUwG3kld4KlQbkg/T/vhjFe3oPhPnTwhif5AHnH7zmXV #https://ci.appveyor.com/tools/encrypt
 
 
   # Mail credentials - for error notifications
