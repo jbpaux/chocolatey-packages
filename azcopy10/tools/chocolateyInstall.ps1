@@ -5,11 +5,11 @@ $toolsDir = Split-Path -Parent $MyInvocation.MyCommand.Definition
 
 $packageArgs = @{
     packageName    = $packageName
-    url64          = 'https://azcopyvnext.azureedge.net/release20220721/azcopy_windows_amd64_10.16.0.zip'
-    checksum64     = '5817cae8ca921f0c199a66cd1a98c2a2f81186b83fa8bceb3366af836cc7edd2'
+    url64          = 'https://azcopyvnext.azureedge.net/release20221005/azcopy_windows_amd64_10.16.1.zip'
+    checksum64     = '1d483db659844ee21f50aad3dcb74dc03b03af85b13161982b709ca890532c1f'
     checksumType64 = 'sha256'
-    url            = 'https://azcopyvnext.azureedge.net/release20220721/azcopy_windows_386_10.16.0.zip'
-    checksum       = 'dc042de5a4e55c13dccbd7c35e12701c1e0b8d099879356de97322ccb6f24333'
+    url            = 'https://azcopyvnext.azureedge.net/release20221005/azcopy_windows_386_10.16.1.zip'
+    checksum       = '24914df83ad9a5a1605bca7abdded47169b123a97dc7c9ed58439c254cf97cd0'
     checksumType   = 'sha256'
     destination    = $toolsDir
 }
