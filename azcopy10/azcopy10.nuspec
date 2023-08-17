@@ -6,7 +6,7 @@
     <version>10.20.1</version>
     <title>azcopy10</title>
     <authors>Microsoft</authors>
-    <owners>jbpaux</owners>
+    <owners>jbpaux, pauby</owners>
     <projectUrl>https://github.com/Azure/azure-storage-azcopy</projectUrl>
     <packageSourceUrl>https://github.com/jbpaux/chocolatey-packages/tree/master/azcopy10</packageSourceUrl>
     <iconUrl>https://rawcdn.githack.com/jbpaux/chocolatey-packages/264e0172dcd810bc7ea08a2225876cff9710aa6f/azcopy10/azcopy-logo.png</iconUrl>
