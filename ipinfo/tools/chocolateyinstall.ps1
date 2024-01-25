@@ -5,12 +5,12 @@ $toolsDir = Split-Path -Parent $MyInvocation.MyCommand.Definition
 
 $packageArgs = @{
     packageName    = $packageName
-    url64          = 'https://github.com/ipinfo/cli/releases/download/ipinfo-2.0.1/ipinfo_2.0.1_windows_amd64.zip'
-    checksum64     = '68b90faeda484ed1ff72628b354002f57fdb77f5b430ec3141342bf149bf0189'
+    url64          = 'https://github.com/ipinfo/cli/releases/download/ipinfo-3.3.0/ipinfo_3.3.0_windows_amd64.zip'
+    checksum64     = '2ab00f6a289d308b9ac04be9153aa566e93acff3da8a62dd283022a0cb6ee34d'
     checksumType64 = 'sha256'
-    url            = 'https://github.com/ipinfo/cli/releases/download/ipinfo-2.0.1/ipinfo_2.0.1_windows_386.zip'
+    url            = 'https://github.com/ipinfo/cli/releases/download/ipinfo-3.3.0/ipinfo_3.3.0_windows_386.zip'
     checksumType   = 'sha256'
-    checksum       = '187079b453fb3c5c0fc57e48252c76e1c84297a4fe2891827abf07c8b1548212'
+    checksum       = 'ddc0d4f17ca972cfc4bc76fc4775f67514e67bc654db4c9695993600a905525b'
     destination    = $toolsDir
 }
 
