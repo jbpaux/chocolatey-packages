@@ -17,7 +17,7 @@ function global:au_SearchReplace {
 
 function global:au_GetLatest {
     $releases = Invoke-RestMethod "https://api.github.com/repos/$repo/releases"
-    if ($null -ne $release) {
+    if ($null -ne $releases) {
         $release = $releases | Where-Object name -like "ipinfo*" | Sort-Object published_at -Descending | Select-Object -First 1
         if ($null -ne $release) {
             $url64 = ($release.assets | Where-Object name -like "ipinfo*_windows_amd64.zip").browser_download_url
