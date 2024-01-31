@@ -1,13 +1,13 @@
 import-module au
 
-$releases    = 'https://github.com/cloudfoundry/bosh-cli/releases'
+$repo = 'cloudfoundry/bosh-cli'
 
 function global:au_SearchReplace {
-   @{
+    @{
         ".\tools\chocolateyInstall.ps1" = @{
-            "(?i)(^\s*[$]packageName\s*=\s*)('.*')"= "`$1'$($Latest.PackageName)'"
-            "(?i)(^\s*url64\s*=\s*)('.*')"            = "`$1'$($Latest.URL64)'"
-            "(?i)(^\s*checksum64\s*=\s*)('.*')"       = "`$1'$($Latest.Checksum64)'"
+            "(?i)(^\s*[$]packageName\s*=\s*)('.*')" = "`$1'$($Latest.PackageName)'"
+            "(?i)(^\s*url64\s*=\s*)('.*')"          = "`$1'$($Latest.URL64)'"
+            "(?i)(^\s*checksum64\s*=\s*)('.*')"     = "`$1'$($Latest.Checksum64)'"
             "(?i)(^\s*checksumType\s*=\s*)('.*')"   = "`$1'$($Latest.ChecksumType64)'"
         }
 
@@ -19,23 +19,23 @@ function global:au_SearchReplace {
 }
 
 function global:au_BeforeUpdate { 
-    Remove-Item "$PSScriptRoot\tools\*.exe"
- }
-function global:au_AfterUpdate  {  }
+    Remove-Item "$PSScriptRoot\tools\*.exe" -Force
+}
+function global:au_AfterUpdate {  }
 
 function global:au_GetLatest {
-    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-
-    $re = "bosh-cli-.*-windows-amd64.exe"
-    $url = $download_page.links | Where-Object href -match $re | Select-Object -First 1 -expand href
-    $url = 'https://github.com' + $url
-
-    $version = $url -split '-|.exe' | Select-Object -Last 1 -Skip 3
-
-    return @{
-        URL64        = $url
-        Version      = $version.Replace('v','')
-        ReleaseNotes = "$releases/tag/v${version}"
+    $releases = Invoke-RestMethod "https://api.github.com/repos/$repo/releases"
+    if ($null -ne $releases) {
+        $release = $releases | Sort-Object published_at -Descending | Select-Object -First 1
+        if ($null -ne $release) {
+            $url64 = ($release.assets | Where-Object name -like "bosh-cli-*-windows-amd64.exe").browser_download_url
+            $version = $release.name -replace "v", ""
+        
+            @{
+                URL64   = $url64
+                Version = $version
+            }
+        }
     }
 }
 
