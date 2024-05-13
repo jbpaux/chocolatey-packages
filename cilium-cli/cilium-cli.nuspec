@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>cilium-cli</id>
+    <title>cilium-cli</title>
+    <version>0.16.7</version>
+    <authors>Cilium</authors>
+    <owners>jbpaux</owners>
+    <summary>The Cilium CLI is the command line tool used to install, manage and troubleshoot Kubernetes clusters running Cilium.</summary>
+    <description>Cilium is an open source, cloud native solution for providing, securing, and observing network connectivity between workloads, fueled by the revolutionary Kernel technology eBPF.
+    
+    The Cilium CLI can be used to install Cilium, inspect the state of a Cilium installation, and enable/disable various features (e.g. clustermesh, Hubble).
+    </description>
+    <projectUrl>https://cilium.io</projectUrl>
+    <tags>cilium cilium-cli kubernetes</tags>
+    <copyright></copyright>
+    <licenseUrl>https://github.com/cilium/cilium-cli/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://rawcdn.githack.com/jbpaux/chocolatey-packages/5c95c0b349ac9bca00a095e99d77941217d52863/cilium-cli/icon.png</iconUrl>
+    <releaseNotes></releaseNotes>
+    <docsUrl>https://docs.cilium.io</docsUrl>
+    <bugTrackerUrl>https://github.com/cilium/cilium-cli/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/cilium/cilium-cli</projectSourceUrl>
+    <packageSourceUrl>https://github.com/jbpaux/chocolatey-packages/tree/master/cilium-cli</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
