@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>msgraph-cli</id>
+    <title>msgraph-cli</title>
+    <version>1.9.0</version>
+    <authors>Microsoft</authors>
+    <owners>jbpaux</owners>
+    <summary>CLI tool for Microsoft Graph based on .NET.</summary>
+    <description>Microsoft Graph CLI provides convenient methods to access Microsoft Graph capabilities using a simplistic command line interface experience on any operating system and any shell.
+    </description>
+    <projectUrl>https://learn.microsoft.com/en-us/graph/cli/overview</projectUrl>
+    <tags>microsoft graph cli</tags>
+    <copyright></copyright>
+    <licenseUrl>https://github.com/microsoftgraph/msgraph-cli/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes></releaseNotes>
+    <docsUrl>https://learn.microsoft.com/en-us/graph/cli/overview</docsUrl>
+    <bugTrackerUrl>https://github.com/microsoftgraph/msgraph-cli/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/microsoftgraph/msgraph-cli</projectSourceUrl>
+    <packageSourceUrl>https://github.com/jbpaux/chocolatey-packages/tree/master/msgraph-cli</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
