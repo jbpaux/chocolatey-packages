@@ -4,7 +4,7 @@
   <metadata>
     <id>cilium-cli</id>
     <title>cilium-cli</title>
-    <version>0.16.19</version>
+    <version>0.16.20</version>
     <authors>Cilium</authors>
     <owners>jbpaux</owners>
     <summary>The Cilium CLI is the command line tool used to install, manage and troubleshoot Kubernetes clusters running Cilium.</summary>
