@@ -5,8 +5,8 @@ $toolsDir = Split-Path -Parent $MyInvocation.MyCommand.Definition
 
 $packageArgs = @{
     packageName    = $packageName
-    url64          = 'https://github.com/cilium/cilium-cli/releases/download/v0.16.22/cilium-windows-amd64.zip'
-    checksum64     = '4d9251d5e77322aaa61e17d1d5f948b8e02fe006ca3fb8b857bf953e4eea9622'
+    url64          = 'https://github.com/cilium/cilium-cli/releases/download/v0.16.23/cilium-windows-amd64.zip'
+    checksum64     = 'bcf0f286b1ac7b5d04425a67210d8670066974ff04353723f1640ba01f581a8e'
     checksumType64 = 'sha256'
     destination    = $toolsDir
 }
