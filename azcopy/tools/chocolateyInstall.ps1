@@ -4,7 +4,7 @@ $packageName = 'azcopy'
  
 $packageArgs = @{
     packageName    = $packageName
-    url            = 'https://azcopy.azureedge.net/azcopy-8-1-0/MicrosoftAzureStorageAzCopy_netcore_x64.msi'
+    url            = 'https://aka.ms/downloadazcopyprwindows'
     fileType       = "msi"
  
     softwareName   = 'Microsoft Azure Storage AzCopy*'

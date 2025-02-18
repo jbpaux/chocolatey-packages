@@ -1,6 +1,6 @@
 import-module au
 
-$releases = 'https://aka.ms/downloadazcopy'
+$releases = 'https://aka.ms/downloadazcopyprwindows'
 
 function global:au_SearchReplace {
     @{

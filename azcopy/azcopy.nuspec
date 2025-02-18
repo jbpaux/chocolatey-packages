@@ -3,18 +3,18 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>azcopy</id>
-    <version>8.1.0</version>
+    <version>8.1.0.20250218</version>
     <title>azcopy</title>
     <authors>Microsoft</authors>
     <owners>jbpaux, pauby</owners>
-    <projectUrl>https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy</projectUrl>
+    <projectUrl>https://learn.microsoft.com/en-us/previous-versions/azure/storage/storage-use-azcopy</projectUrl>
     <packageSourceUrl>https://github.com/jbpaux/chocolatey-packages/tree/master/azcopy</packageSourceUrl>
     <iconUrl>https://raw.githubusercontent.com/jbpaux/chocolatey-packages/master/azure-cli/azcopy-logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <docsUrl>https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy</docsUrl>
+    <docsUrl>https://learn.microsoft.com/en-us/previous-versions/azure/storage/storage-use-azcopy</docsUrl>
     <tags>azcopy azure admin</tags>
-    <summary>The Azure CLI is Azure's command line experience for managing Azure resources.</summary>
-    <description>AzCopy is a command-line utility designed for high-performance uploading, downloading, and copying data to and from Microsoft Azure Blob and File.</description>
+    <summary>AzCopy 8.1 is the old command-line utility designed for high-performance uploading, downloading, and copying data to and from Microsoft Azure Blob and File.</summary>
+    <description>AzCopy is the old command-line utility designed for high-performance uploading, downloading, and copying data to and from Microsoft Azure Blob and File. You should now use azcopy10 package. This package will be deprecated.</description>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
