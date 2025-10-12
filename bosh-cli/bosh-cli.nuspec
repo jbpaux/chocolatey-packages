@@ -4,7 +4,7 @@
   <metadata>
     <id>bosh-cli</id>
     <title>bosh-cli</title>
-    <version>7.9.11</version>
+    <version>7.9.12</version>
     <authors>CloudFoundry</authors>
     <owners>jbpaux</owners>
     <summary>The Bosh CLI is the command line tool used for interacting with all things BOSH, from deployment operations to software release management.</summary>
