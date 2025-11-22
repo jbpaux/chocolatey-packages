@@ -7,8 +7,8 @@ $toolsDir      = Split-Path $MyInvocation.MyCommand.Definition
 $packageArgs = @{
     PackageName  = $packageName
     FileFullPath = "$toolsDir\$exeName"
-    Url64          = 'https://github.com/cloudfoundry/bosh-cli/releases/download/v7.9.13/bosh-cli-7.9.13-windows-amd64.exe'
-    Checksum64     = '826c9a6a2f2d4a6527f4ba9220ec017e3e6edb642300b822402f5a79b5bf52b1'
+    Url64          = 'https://github.com/cloudfoundry/bosh-cli/releases/download/v7.9.14/bosh-cli-7.9.14-windows-amd64.exe'
+    Checksum64     = '5f46ec10d8eb6b8fc90d9c46589356bc1f9e5894b9b062ac1a9f816e63f6a53c'
     ChecksumType = 'sha256'
 }
 Get-ChocolateyWebFile @packageArgs
